@@ -1,0 +1,7 @@
+function calculerIMC(poids, taille) {
+    return poids / Math.pow((taille / 100), 2)
+}
+
+let poids = prompt("Indiquez poids en kg :")
+let taille = prompt("Indiquez taille en cm:")
+alert(calculerIMC(poids, taille))
